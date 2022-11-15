@@ -21,5 +21,9 @@ public class Main {
         array.add(8);
 
         System.out.println(NumberBox.getMultipliedBoxDigits(array));
-    }
+
+        String[] chart={"-", "-", "~", "-", "-", "-", "-", "~", "~", "-", "-", "~", "~"};
+        Waves.chartAnalyser(chart);
+
+}
 }
