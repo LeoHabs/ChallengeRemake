@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
     Ticket newTicket= new Ticket();
-   // newTicket.getPassengerInfo();
+    newTicket.getPassengerInfo();
         System.out.println(Rental.getRentalCost(0));
         System.out.println(Rental.getRentalCost(1));
         System.out.println(Rental.getRentalCost(2));
