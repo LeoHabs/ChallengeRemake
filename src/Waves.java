@@ -6,9 +6,10 @@ public class Waves {
 
         for (int i = 1; i < array.length; i++) {
             currentEvent= array[i];
-            if(currentEvent != previousEvent && previousEvent.equals("-")){
+            if(currentEvent.equals("~") && previousEvent.equals("-")){
                 counter +=1;
             }
+            previousEvent = currentEvent;
         }
 
         double seaSickChange= (double) counter/ array.length;
